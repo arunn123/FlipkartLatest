@@ -24,7 +24,7 @@ public class FlipkartFirstWindow {
 		wd.manage().window().maximize();
 		wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		wd.navigate().to("https://www.flipkart.com/");
-		System.out.println("Navigated to flipkart page");
+		System.out.println("Navigation success");
 	}
 
 	public static void escKey() {
